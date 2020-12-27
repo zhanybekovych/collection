@@ -1,0 +1,13 @@
+@import "vars";
+
+.header {
+  min-height: 200px;
+  background-color: $main-dark-color;
+  color: $main-light-color;
+
+  &__inner {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+  }
+}
